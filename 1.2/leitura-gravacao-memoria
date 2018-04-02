@@ -1,0 +1,13 @@
+		.data
+		.equ INICIO, 0x00020000 #endereço da primeira posição da memória
+		
+		.global main
+		.text
+main:		movia r1, INICIO
+		movia r2, 10
+		movia r3, 20
+		stw r2, 0(r1) #armazena o valor de r2 na primeira posição da memória
+		stw r3, 4(r1) #armazena o valor de r3 na segunda posição da memória
+		ldw r4, 0(r1) #obtém o valor da primeira posição da memória e armazena em r4
+		ldw r5, 4(r1) #obtém o valor da primeira posição da memória e armazena em r5
+		
