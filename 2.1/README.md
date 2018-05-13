@@ -1,3 +1,4 @@
-#Protocolo RS-232
+# Protocolo RS-232
 
-- Modo de comunicação: Assíncrono
+- Modo de Comunicação: Assíncrono
+- Formato das Mensagens: 
