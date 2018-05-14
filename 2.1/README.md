@@ -10,3 +10,4 @@
 3. Bit de paridade
 4. Stop bit
 
+- Baud Rate: 9600
